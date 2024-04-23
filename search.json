@@ -58,7 +58,7 @@
     "href": "install_packages.html",
     "title": "5  Install Emacs Packages",
     "section": "",
-    "text": "TO DO TO DO",
+    "text": "Now we are going to open Emacs for the first time. This will install a lot of Emacs packages for you, almost automatically.\nIn the bottom, a message will ask you to press “y” to install packages. Please do. A lot of packages will load again.\nAfter some time, another message will pop up again asking you to press “y” to install a few more packages. Again, please do.\nThis may take a bit of time to install of these packages (~5 minutes).\nAt the end, you may or may not get a message that a package is deprecated. This should not be an issue, and it should not appear again when you open Emacs in the future.\nNow please close out of Emacs and reopen it.",
     "crumbs": [
       "Opening Emacs for the First Time",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Install Emacs Packages</span>"
