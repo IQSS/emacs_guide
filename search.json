@@ -157,7 +157,7 @@
     "href": "problems.html",
     "title": "14  Common Problems",
     "section": "",
-    "text": "TO DO TO DO",
+    "text": "You may have keybindings set for your computer that supersede the keybindings set in Emacs. For example, my C-&lt;up&gt;, C-&lt;down&gt;, and C-&lt;right&gt; controls were used by my Mac for Mission Control and Applications settings. To disable these keybindings, go to your Apple Menu &gt; System Settings &gt; Keyboard &gt; Keyboard Shortcuts and then locate the settings you’d like to disable. Uncheck them. Full instructions for Macs can be found here. Instructions for PCs can be found here.\nEmacs is on the older side. Newer installations seem to have some problems with loading in some packages. For example, I could not install ’use-package with the M-x install-packages command, but instead had to install it by looking at M-x list-packages.",
     "crumbs": [
       "Common Hazards",
       "<span class='chapter-number'>14</span>  <span class='chapter-title'>Common Problems</span>"
