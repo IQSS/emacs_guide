@@ -306,7 +306,42 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>TO DO TO DO</p>
+<p>All of the previous commands, and some additional ones are listed below. From the <a href="https://www.gnu.org/software/emacs/refcards/pdf/survival.pdf">GNU Emacs Survival Card</a>.</p>
+<p>Running Emacs:</p>
+<div class="line-block">C-x C-c | Quit Emacs |<br>
+C-x C-f | Edit file; this command uses the mini buffer to read the file name; use this to create new files by entering the name of the new file |<br>
+C-x C-s | Save file |<br>
+C-x k | Kill a buffer |<br>
+C-g | In most contexts: cancel, stop, abort partially types or executing command |<br>
+C-x u | Undo |</div>
+<p><br></p>
+<p>Moving About:</p>
+<div class="line-block">C-l | Scroll current line to center of window |<br>
+C-x b | Switch to another buffer |<br>
+M-&lt; | Move to beginning of the buffer |<br>
+M-&gt; | Move to the end of the buffer |<br>
+M-g M-g | Go to a given line number |</div>
+<p><br></p>
+<p>Multiple Windows:</p>
+<p>|C-x 0|Remove the current window from the display| |C-x 1|Make active window the only window| |C-x 2|Split window horizontally| |C-x 3|Split window vertically| |C-x o|Move to other window|</p>
+<p><br></p>
+<p>Regions:</p>
+<p>|C-space|Set a mark| |M-h|Mark entire paragraph| |C-x h|Mark entire buffer|</p>
+<p><br></p>
+<p>Killing, Yanking, Copying and Pasting</p>
+<p>|C-w|Kill region| |M-w|Copy region to kill-ring| |C-k|Kill from the cursor all the way to the end of the line| |M-DEL|Kill word| |C-y|Yank back the last kill (C-w C-y combination could be used to move text around)| |M-y|Replace last yank with previous kill| |Cmd-C|Copy| |Cmd-V|Paste|</p>
+<p><br></p>
+<p>Searching:</p>
+<p>|C-s|Search for a string (forwards)| |C-r|Search for a string (backwards)| |RET|Quit searching| |M-C-s|Regular expression search| |M-C-r|Reverse regular expression search|</p>
+<p><br></p>
+<p>Tags</p>
+<p>|M-.|Find a definition| |M-*|Pop back to where M-. was last invoked|</p>
+<p><br></p>
+<p>Compiling:</p>
+<p>|C-c C-c|Compile the file|</p>
+<p><br></p>
+<p>Getting Help:</p>
+<p>|C-h|Emacs help| |C-h t|Run the Emacs tutorial| |C-h i|Enter Info, the documentation browser| |C-h a|Show commands matching a string| |C-h k|Display documentation of the function invoked by a keystroke| |C-h m|Get mode-specific information|</p>
 
 
 
