@@ -190,7 +190,7 @@
     "href": "external_res.html",
     "title": "17  External Resources",
     "section": "",
-    "text": "TO DO TO DO",
+    "text": "Documentation for useful programs that you may need (or like) to install\nHomebrew documentation\nGnu-tar documentation\nNode.js documentation\nIspell documentation\nEmacs Application Installer\nIQSS Configuration GitHub\nCopilot\nHotkeys for Macs or PCs\n\nAlso, it never hurts to use Google, Stack Overflow, Quora, ChatGPT, etc. when you run into any issues!\nYouTube also has a vast array of Emacs turorials.",
     "crumbs": [
       "Resources",
       "<span class='chapter-number'>17</span>  <span class='chapter-title'>External Resources</span>"
