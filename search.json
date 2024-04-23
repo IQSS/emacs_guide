@@ -25,7 +25,7 @@
     "href": "computer_installer.html",
     "title": "2  Installing Necessary Packages on Your Computer",
     "section": "",
-    "text": "TO DO TO DO",
+    "text": "There are a few programs that we will need to install: Homebrew, node, ispell, and gnu-tar.\nHomebrew is necessary as MacOS’s package manager. This will allow you to install various programs via the command line. Node.js, ispell, and gnu-tar are all dependencies that are needed in order to integrate with Copilot.\nTo do so, please open your Terminal. (If you don’t know where this is: Finder &gt; Applications &gt; Utilities &gt; Terminal).\n\nNow type: /bin/bash -c “$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)”\nPress enter. Follow the instructions. It will likely give you a message to copy two lines of code. Copy and paste the first and press enter. When that is done, copy and paste the second and press enter.\n\nThe first: (echo; echo ‘eval “$(/opt/homebrew/bin/brew shellenv)“’) &gt;&gt; /Users//.zprofile\nThe second: eval “$(/opt/homebrew/bin/brew shellenv)”\n\n\nOnce Homebrew is installed, we can now install the three dependencies in your terminal. One by one, please copy and paste the following lines and execute separately (by pressing return after each).\n\nbrew install gnu-tar\nbrew install node\nbrew install ispell\n\nYou should now be done!\nIf you run into any problems installing these, please refer to documentation online for Homebrew, gnu-tar, node.js, and ispell.",
     "crumbs": [
       "Installation",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Installing Necessary Packages on Your Computer</span>"

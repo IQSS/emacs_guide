@@ -312,7 +312,25 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>TO DO TO DO</p>
+<p>There are a few programs that we will need to install: Homebrew, node, ispell, and gnu-tar.</p>
+<p>Homebrew is necessary as MacOS’s package manager. This will allow you to install various programs via the command line. Node.js, ispell, and gnu-tar are all dependencies that are needed in order to integrate with Copilot.</p>
+<p>To do so, please open your Terminal. (If you don’t know where this is: Finder &gt; Applications &gt; Utilities &gt; Terminal).</p>
+<ul>
+<li>Now type: /bin/bash -c “$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)”</li>
+<li>Press enter. Follow the instructions. It will likely give you a message to copy two lines of code. Copy and paste the first and press enter. When that is done, copy and paste the second and press enter.
+<ul>
+<li>The first: (echo; echo ‘eval “$(/opt/homebrew/bin/brew shellenv)“’) &gt;&gt; /Users/<yourusername>/.zprofile</yourusername></li>
+<li>The second: eval “$(/opt/homebrew/bin/brew shellenv)”</li>
+</ul></li>
+</ul>
+<p>Once Homebrew is installed, we can now install the three dependencies in your terminal. One by one, please copy and paste the following lines and execute separately (by pressing return after each).</p>
+<ul>
+<li>brew install gnu-tar</li>
+<li>brew install node</li>
+<li>brew install ispell</li>
+</ul>
+<p>You should now be done!</p>
+<p>If you run into any problems installing these, please refer to documentation online for <a href="https://brew.sh/">Homebrew</a>, <a href="https://formulae.brew.sh/formula/gnu-tar">gnu-tar</a>, <a href="https://nodejs.org/en/download/package-manager/">node.js</a>, and <a href="https://formulae.brew.sh/formula/ispell">ispell</a>.</p>
 
 
 
