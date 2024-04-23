@@ -14,7 +14,7 @@
     "href": "overview.html",
     "title": "1  Overview",
     "section": "",
-    "text": "TO DO TO DO",
+    "text": "This section will walk you through installing the Emacs application, necessary packages, as well as the IQSS configuration.\nThese instructions only support MacOS users currently. Please stay updated as we prepare materials for Microsoft users.\nIn preparation for installing Emacs, there are other programs that we also recommend to install. Please refer to our documentation for useful programs to install prior to Emacs. This page includes links to external download sites for programs such as R, MikTex, and Git.\nIn fact, if you do not install some of these (or if you have not previously installed some of these), you may run into problems when loading our Emacs configuration. For instance, you will likely need Git already installed in order for your Copilot integration to work.\nFor this process, we will teach you how to use the command line in the terminal. However, there will also be external links for many of the download options if you are not wholly comfortable in the terminal, or find yourself running into problems.",
     "crumbs": [
       "Installation",
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Overview</span>"
