@@ -36,7 +36,7 @@
     "href": "application.html",
     "title": "3  Emacs Application",
     "section": "",
-    "text": "TO DO TO DO",
+    "text": "To download the Emacs application, please run the following line in your Terminal: brew install –cask emacs\nIf the package installer appears, follow its instructions. (You may need to drag the icon to the Application folder).\nIf you run into any problems, you can always download the application from Emacs For MacOS X.",
     "crumbs": [
       "Installation",
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Emacs Application</span>"
