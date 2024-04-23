@@ -32,179 +32,168 @@
     ]
   },
   {
-    "objectID": "dependencies.html",
-    "href": "dependencies.html",
-    "title": "3  Dependencies",
-    "section": "",
-    "text": "TO DO TO DO",
-    "crumbs": [
-      "Installation",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Dependencies</span>"
-    ]
-  },
-  {
     "objectID": "application.html",
     "href": "application.html",
-    "title": "4  Emacs Application",
+    "title": "3  Emacs Application",
     "section": "",
     "text": "TO DO TO DO",
     "crumbs": [
       "Installation",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Emacs Application</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Emacs Application</span>"
     ]
   },
   {
     "objectID": "configuration.html",
     "href": "configuration.html",
-    "title": "5  IQSS Configuration",
+    "title": "4  IQSS Configuration",
     "section": "",
     "text": "TO DO TO DO",
     "crumbs": [
       "Installation",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>IQSS Configuration</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>IQSS Configuration</span>"
     ]
   },
   {
     "objectID": "install_packages.html",
     "href": "install_packages.html",
-    "title": "6  Install Emacs Packages",
+    "title": "5  Install Emacs Packages",
     "section": "",
     "text": "TO DO TO DO",
     "crumbs": [
       "Opening Emacs for the First Time",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Install Emacs Packages</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Install Emacs Packages</span>"
     ]
   },
   {
     "objectID": "copilot_login.html",
     "href": "copilot_login.html",
-    "title": "7  Copilot",
+    "title": "6  Copilot",
     "section": "",
     "text": "TO DO TO DO",
     "crumbs": [
       "Opening Emacs for the First Time",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Copilot</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Copilot</span>"
     ]
   },
   {
     "objectID": "tutorial.html",
     "href": "tutorial.html",
-    "title": "8  Emacs Tutorial",
+    "title": "7  Emacs Tutorial",
     "section": "",
     "text": "TO DO TO DO",
     "crumbs": [
       "Getting Started",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Emacs Tutorial</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Emacs Tutorial</span>"
     ]
   },
   {
     "objectID": "important_keys.html",
     "href": "important_keys.html",
-    "title": "9  Important Keys",
+    "title": "8  Important Keys",
     "section": "",
     "text": "TO DO TO DO",
     "crumbs": [
       "Getting Started",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Important Keys</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Important Keys</span>"
     ]
   },
   {
     "objectID": "layout.html",
     "href": "layout.html",
-    "title": "10  Layout",
+    "title": "9  Layout",
     "section": "",
     "text": "TO DO TO DO",
     "crumbs": [
       "Getting Started",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Layout</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Layout</span>"
     ]
   },
   {
     "objectID": "creating.html",
     "href": "creating.html",
-    "title": "11  Creating and Setting Up Documents",
+    "title": "10  Creating and Setting Up Documents",
     "section": "",
     "text": "TO DO TO DO",
     "crumbs": [
       "Getting Started",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Creating and Setting Up Documents</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Creating and Setting Up Documents</span>"
     ]
   },
   {
     "objectID": "moving.html",
     "href": "moving.html",
-    "title": "12  Moving Around Your Document",
+    "title": "11  Moving Around Your Document",
     "section": "",
     "text": "TO DO TO DO",
     "crumbs": [
       "Getting Started",
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Moving Around Your Document</span>"
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Moving Around Your Document</span>"
     ]
   },
   {
     "objectID": "editing.html",
     "href": "editing.html",
-    "title": "13  Editing Your Document",
+    "title": "12  Editing Your Document",
     "section": "",
     "text": "TO DO TO DO",
     "crumbs": [
       "Getting Started",
-      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Editing Your Document</span>"
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Editing Your Document</span>"
     ]
   },
   {
     "objectID": "saving.html",
     "href": "saving.html",
-    "title": "14  Saving and Compiling Your Document",
+    "title": "13  Saving and Compiling Your Document",
     "section": "",
     "text": "TO DO TO DO",
     "crumbs": [
       "Getting Started",
-      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Saving and Compiling Your Document</span>"
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Saving and Compiling Your Document</span>"
     ]
   },
   {
     "objectID": "problems.html",
     "href": "problems.html",
-    "title": "15  Common Problems",
+    "title": "14  Common Problems",
     "section": "",
     "text": "TO DO TO DO",
     "crumbs": [
       "Common Hazards",
-      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Common Problems</span>"
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Common Problems</span>"
     ]
   },
   {
     "objectID": "commands.html",
     "href": "commands.html",
-    "title": "16  Commands List",
+    "title": "15  Commands List",
     "section": "",
     "text": "TO DO TO DO",
     "crumbs": [
       "Resources",
-      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Commands List</span>"
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Commands List</span>"
     ]
   },
   {
     "objectID": "glossary.html",
     "href": "glossary.html",
-    "title": "17  Glossary of Key Terms",
+    "title": "16  Glossary of Key Terms",
     "section": "",
     "text": "TO DO TO DO",
     "crumbs": [
       "Resources",
-      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Glossary of Key Terms</span>"
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Glossary of Key Terms</span>"
     ]
   },
   {
     "objectID": "external_res.html",
     "href": "external_res.html",
-    "title": "18  External Resources",
+    "title": "17  External Resources",
     "section": "",
     "text": "TO DO TO DO",
     "crumbs": [
       "Resources",
-      "<span class='chapter-number'>18</span>  <span class='chapter-title'>External Resources</span>"
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>External Resources</span>"
     ]
   }
 ]
