@@ -80,7 +80,7 @@
     "href": "tutorial.html",
     "title": "7  Emacs Tutorial",
     "section": "",
-    "text": "TO DO TO DO",
+    "text": "To open up Emacs’s built-in tutorial, type Control-h t. (You may also need to type y for “yes” if it asks).\nWe strongly recommend that you complete this tutorial, as it shows you the most useful keys!",
     "crumbs": [
       "Getting Started",
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>Emacs Tutorial</span>"
