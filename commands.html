@@ -308,45 +308,308 @@ ul.task-list li input[type="checkbox"] {
 
 <p>All of the previous commands, and some additional ones are listed below. From the <a href="https://www.gnu.org/software/emacs/refcards/pdf/survival.pdf">GNU Emacs Survival Card</a>.</p>
 <p>Running Emacs:</p>
-<div class="line-block">C-x C-c | Quit Emacs |<br>
-C-x C-f | Edit file; this command uses the mini buffer to read the file name; use this to create new files by entering the name of the new file |<br>
-C-x C-s | Save file |<br>
-C-x k | Kill a buffer |<br>
-C-g | In most contexts: cancel, stop, abort partially types or executing command |<br>
-C-x u | Undo |</div>
+<table class="table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Command</th>
+<th>Function</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>C-x C-c</td>
+<td>Quit Emacs</td>
+</tr>
+<tr class="even">
+<td>C-x C-f</td>
+<td>Edit file; this command uses the mini buffer to read the file name; use this to create new files by entering the name of the new file</td>
+</tr>
+<tr class="odd">
+<td>C-x C-s</td>
+<td>Save file</td>
+</tr>
+<tr class="even">
+<td>C-x k</td>
+<td>Kill a buffer</td>
+</tr>
+<tr class="odd">
+<td>C-g</td>
+<td>In most contexts: cancel, stop, abort partially types or executing command</td>
+</tr>
+<tr class="even">
+<td>C-x u</td>
+<td>Undo</td>
+</tr>
+</tbody>
+</table>
 <p><br></p>
 <p>Moving About:</p>
-<div class="line-block">C-l | Scroll current line to center of window |<br>
-C-x b | Switch to another buffer |<br>
-M-&lt; | Move to beginning of the buffer |<br>
-M-&gt; | Move to the end of the buffer |<br>
-M-g M-g | Go to a given line number |</div>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Command</th>
+<th>Function</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>C-l</td>
+<td>Scroll current line to center of window</td>
+</tr>
+<tr class="even">
+<td>C-x b</td>
+<td>Switch to another buffer</td>
+</tr>
+<tr class="odd">
+<td>M-&lt;</td>
+<td>Move to beginning of the buffer</td>
+</tr>
+<tr class="even">
+<td>M-&gt;</td>
+<td>Move to the end of the buffer</td>
+</tr>
+<tr class="odd">
+<td>M-g M-g</td>
+<td>Go to a given line number</td>
+</tr>
+</tbody>
+</table>
 <p><br></p>
 <p>Multiple Windows:</p>
-<p>|C-x 0|Remove the current window from the display| |C-x 1|Make active window the only window| |C-x 2|Split window horizontally| |C-x 3|Split window vertically| |C-x o|Move to other window|</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Command</th>
+<th>Function</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>C-x 0</td>
+<td>Remove the current window from the display</td>
+</tr>
+<tr class="even">
+<td>C-x 1</td>
+<td>Make active window the only window</td>
+</tr>
+<tr class="odd">
+<td>C-x 2</td>
+<td>Split window horizontally</td>
+</tr>
+<tr class="even">
+<td>C-x 3</td>
+<td>Split window vertically</td>
+</tr>
+<tr class="odd">
+<td>C-x o</td>
+<td>Move to other window</td>
+</tr>
+</tbody>
+</table>
 <p><br></p>
 <p>Regions:</p>
-<p>|C-space|Set a mark| |M-h|Mark entire paragraph| |C-x h|Mark entire buffer|</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Command</th>
+<th>Function</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>C-space</td>
+<td>Set a mark</td>
+</tr>
+<tr class="even">
+<td>M-h</td>
+<td>Mark entire paragraph</td>
+</tr>
+<tr class="odd">
+<td>C-x h</td>
+<td>Mark entire buffer</td>
+</tr>
+</tbody>
+</table>
 <p><br></p>
 <p>Killing, Yanking, Copying and Pasting</p>
-<p>|C-w|Kill region| |M-w|Copy region to kill-ring| |C-k|Kill from the cursor all the way to the end of the line| |M-DEL|Kill word| |C-y|Yank back the last kill (C-w C-y combination could be used to move text around)| |M-y|Replace last yank with previous kill| |Cmd-C|Copy| |Cmd-V|Paste|</p>
+<table class="table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Command</th>
+<th>Function</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>C-w</td>
+<td>Kill region</td>
+</tr>
+<tr class="even">
+<td>M-w</td>
+<td>Copy region to kill-ring</td>
+</tr>
+<tr class="odd">
+<td>C-k</td>
+<td>Kill from the cursor all the way to the end of the line</td>
+</tr>
+<tr class="even">
+<td>M-DEL</td>
+<td>Kill word</td>
+</tr>
+<tr class="odd">
+<td>C-y</td>
+<td>Yank back the last kill (C-w C-y combination could be used to move text around)</td>
+</tr>
+<tr class="even">
+<td>M-y</td>
+<td>Replace last yank with previous kill</td>
+</tr>
+<tr class="odd">
+<td>Cmd-C</td>
+<td>Copy</td>
+</tr>
+<tr class="even">
+<td>Cmd-V</td>
+<td>Paste</td>
+</tr>
+</tbody>
+</table>
 <p><br></p>
 <p>Searching:</p>
-<p>|C-s|Search for a string (forwards)| |C-r|Search for a string (backwards)| |RET|Quit searching| |M-C-s|Regular expression search| |M-C-r|Reverse regular expression search|</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Command</th>
+<th>Function</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>C-s</td>
+<td>Search for a string (forwards)</td>
+</tr>
+<tr class="even">
+<td>C-r</td>
+<td>Search for a string (backwards)</td>
+</tr>
+<tr class="odd">
+<td>RET</td>
+<td>Quit searching</td>
+</tr>
+<tr class="even">
+<td>M-C-s</td>
+<td>Regular expression search</td>
+</tr>
+<tr class="odd">
+<td>M-C-r</td>
+<td>Reverse regular expression search</td>
+</tr>
+</tbody>
+</table>
 <p><br></p>
 <p>Tags</p>
-<p>|M-.|Find a definition| |M-*|Pop back to where M-. was last invoked|</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Command</th>
+<th>Function</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>M-.</td>
+<td>Find a definition</td>
+</tr>
+<tr class="even">
+<td>M-*</td>
+<td>Pop back to where M-. was last invoked</td>
+</tr>
+</tbody>
+</table>
 <p><br></p>
 <p>Compiling:</p>
-<p>|C-c C-c|Compile the file|</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Command</th>
+<th>Function</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>C-c C-c</td>
+<td>Compile the file</td>
+</tr>
+</tbody>
+</table>
 <p><br></p>
 <p>Getting Help:</p>
-<p>|C-h|Emacs help| |C-h t|Run the Emacs tutorial| |C-h i|Enter Info, the documentation browser| |C-h a|Show commands matching a string| |C-h k|Display documentation of the function invoked by a keystroke| |C-h m|Get mode-specific information|</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Command</th>
+<th>Function</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>C-h</td>
+<td>Emacs help</td>
+</tr>
+<tr class="even">
+<td>C-h t</td>
+<td>Run the Emacs tutorial</td>
+</tr>
+<tr class="odd">
+<td>C-h i</td>
+<td>Enter Info, the documentation browser</td>
+</tr>
+<tr class="even">
+<td>C-h a</td>
+<td>Show commands matching a string</td>
+</tr>
+<tr class="odd">
+<td>C-h k</td>
+<td>Display documentation of the function invoked by a keystroke</td>
+</tr>
+<tr class="even">
+<td>C-h m</td>
+<td>Get mode-specific information</td>
+</tr>
+</tbody>
+</table>
 <p><br></p>
 <p>Copilot:</p>
-<div class="line-block">M-x copilot-mode | Toggle on/off copilot mode. |<br>
-M-C-RET | Accept a completion. |<br>
-C-&lt;right&gt; | Accept by word. |</div>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Command</th>
+<th>Function</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>M-x copilot-mode</td>
+<td>Toggle on/off copilot mode.</td>
+</tr>
+<tr class="even">
+<td>M-C-RET</td>
+<td>Accept a completion.</td>
+</tr>
+<tr class="odd">
+<td>C-&lt;right&gt;</td>
+<td>Accept by word.</td>
+</tr>
+</tbody>
+</table>
 
 
 
